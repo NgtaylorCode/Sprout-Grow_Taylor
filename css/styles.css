@@ -1,0 +1,248 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* PAGE BACKGROUND COLOR  */
+body {
+    background-color: #dfeee0;
+    color: #294d29;
+    margin: 10%;
+}
+
+/* HEADER AND FOOTER */
+header, footer {
+    background-color: #fff;
+    color: #2c4a2f;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+/* NAVIGATION */
+nav ul {
+        list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav * {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #517a51;
+    display: inline-block;
+    padding: 10px 10px;
+    transition: background-color 0.2s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #517a51;
+    color: #fff;
+}
+
+/* MAIN CONTENT */
+main {
+    padding: 20px;
+}
+
+/* LOGO */
+.logo {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+/* FLOAT IMAGE */
+.wrap-image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: auto;
+}
+
+/* BORDER EFFECT AND SEPARATOR LINE */
+hr {
+    border: none;
+    height: 1px;
+    background: #b7cbb7;
+    margin: 40px 0;
+}
+
+/* SECTION IMAGE CLASS */
+.section-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* FORM CUSTOMIZATION */
+form {
+    max-width: 500px;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+button {
+    padding: 10px;
+    background-color: #2f6b3b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #24552e;
+}
+
+.shop-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2f6b3b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.shop-button:hover {
+    background-color: #24552e;
+}
+
+/* FOOTER */
+footer img {
+    width: 30px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* DROPDOWN */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: white;
+    min-width: 158.5px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    z-index: 9999;
+
+    margin: 0;
+    padding: 0;
+}
+
+/* REMOVE ALL DEFAULT LIST STYLING */
+.dropdown-content {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* LINKS */
+.dropdown-content li a {
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    color: #517a51;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+/* HOVER */
+.dropdown-content li a:hover {
+    background-color: #517a51;
+    color: white;
+    width: 100%;
+}
+
+/* SHOW */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* REGISTER LAYOUT (CENTERED BALANCED CARDS) */
+.register-container {
+    display: flex;
+    align-items: stretch;
+}
+
+/* FORM + IMAGE CARDS */
+.register-form,
+.register-image {
+    flex: 1;
+    max-width: 450px;
+}
+
+/* IMAGE CENTERING */
+.register-image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* IMAGE STYLE */
+.register-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.register-image img {
+    transform: translateX(120px);
+}
+
+/* EVENT DROPDOWN BIGGER */
+.event-select {
+    padding: 14px;
+    font-size: 16px;
+}
+
+/* BUTTON */
+button {
+    padding: 12px;
+    font-size: 16px;
+}
+
+.section-divider {
+    height: 1px;
+    background-color: #b7cbb7;
+    margin: 20px 0;
+}
